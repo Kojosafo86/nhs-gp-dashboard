@@ -1,0 +1,8 @@
+actual_duration,duration_band_order
+1-5 Minutes,1
+6-10 Minutes,6
+11-15 Minutes,11
+16-20 Minutes,16
+21-30 Minutes,21
+31-60 Minutes,31
+Unknown / Data Quality,999

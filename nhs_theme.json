@@ -1,0 +1,53 @@
+{
+  "name": "NHS Blue",
+  "dataColors": [
+    "#005EB8",
+    "#003087",
+    "#0072CE",
+    "#41B6E6",
+    "#00A499",
+    "#330072",
+    "#7C2855",
+    "#8A1538"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#231F20",
+  "tableAccent": "#005EB8",
+  "good": "#009639",
+  "neutral": "#768692",
+  "bad": "#DA291C",
+  "maximum": "#003087",
+  "center": "#41B6E6",
+  "minimum": "#F0F4F5",
+  "null": "#E8EDEE",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [
+          {
+            "fontColor": { "solid": { "color": "#003087" } },
+            "fontSize": 13,
+            "fontFamily": "Segoe UI Semibold",
+            "alignment": "left"
+          }
+        ],
+        "background": [ { "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 } ],
+        "border": [ { "color": { "solid": { "color": "#E8EDEE" } }, "radius": 6, "show": true } ],
+        "*": [ { "fontFamily": "Segoe UI", "fontSize": 10, "fontColor": { "solid": { "color": "#231F20" } } } ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [ { "color": { "solid": { "color": "#005EB8" } }, "fontSize": 32, "fontFamily": "Segoe UI" } ],
+        "categoryLabels": [ { "color": { "solid": { "color": "#768692" } }, "fontSize": 11 } ],
+        "background": [ { "color": { "solid": { "color": "#F0F4F5" } }, "transparency": 0 } ],
+        "border": [ { "color": { "solid": { "color": "#005EB8" } }, "radius": 6, "show": true } ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [ { "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 } ]
+      }
+    }
+  }
+}

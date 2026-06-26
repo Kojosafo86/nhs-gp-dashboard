@@ -1,0 +1,9 @@
+time_between_book_and_appointment,wait_band_order
+Same Day,0
+1 Day,1
+2 to 7 Days,2
+8  to 14 Days,8
+15  to 21 Days,15
+22  to 28 Days,22
+More than 28 Days,28
+Unknown / Data Quality,999
