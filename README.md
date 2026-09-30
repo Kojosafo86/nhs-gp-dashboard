@@ -114,6 +114,20 @@ Stated plainly, because the numbers are only as good as their caveats:
 
 ---
 
+## How to open it
+
+1. Install [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free, Windows).
+2. Clone or download this repository.
+3. *(Optional)* Rebuild the dimension tables: `pip install pandas`, then run
+   `python prep_nhs.py` from the project folder. The prepared CSVs are already
+   in `data/`, so this step is only needed if you change the raw files.
+4. Open `nhs_gp_appointments.pbix`. If Power BI asks where the data is, point
+   it at the `data/` folder (*Transform data → Data source settings*).
+5. The custom theme is saved in the report; `nhs_theme.json` is included if you
+   want to apply it elsewhere (*View → Themes → Browse for themes*).
+
+---
+
 ## Data
 
 NHS England, *Appointments in General Practice* (regional/sub-ICB level),
